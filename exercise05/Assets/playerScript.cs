@@ -1,9 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using TMPro;
 
 public class playerScript : MonoBehaviour
 {
+    public float BBQBottles = 0;
+    public TMP_Text bbqCount;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,4 +18,15 @@ public class playerScript : MonoBehaviour
     {
         
     }
-}
+    private void OnTriggerEnter(Collider other)
+    {
+
+        if (other.CompareTag("bbq"))
+        {
+            Destroy(other.gameObject);
+            BBQBottles = BBQBottles + 1;
+            bbqCount.text = BBQBottles.ToString();
+
+        }
+    }
+    }
