@@ -24,10 +24,10 @@ public class playerScript : MonoBehaviour
 
         if (other.CompareTag("bbq"))
         {
+            ParticleSystem partay = Instantiate(party, other.gameObject.transform.position, transform.rotation);
             Destroy(other.gameObject);
             BBQBottles = BBQBottles + 1;
             bbqCount.text = BBQBottles.ToString();
-            ParticleSystem partay = Instantiate(party);
 
         }
     }
