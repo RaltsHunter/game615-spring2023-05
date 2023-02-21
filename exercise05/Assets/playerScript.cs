@@ -7,6 +7,7 @@ public class playerScript : MonoBehaviour
 {
     public float BBQBottles = 0;
     public TMP_Text bbqCount;
+    public ParticleSystem party;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,6 +27,7 @@ public class playerScript : MonoBehaviour
             Destroy(other.gameObject);
             BBQBottles = BBQBottles + 1;
             bbqCount.text = BBQBottles.ToString();
+            ParticleSystem partay = Instantiate(party);
 
         }
     }

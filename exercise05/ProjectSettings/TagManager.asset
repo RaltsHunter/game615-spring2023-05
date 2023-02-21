@@ -6,6 +6,7 @@ TagManager:
   tags:
   - CinemachineTarget
   - bbq
+  - particle
   layers:
   - Default
   - TransparentFX
