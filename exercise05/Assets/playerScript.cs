@@ -8,6 +8,7 @@ public class playerScript : MonoBehaviour
     public float BBQBottles = 0;
     public TMP_Text bbqCount;
     public ParticleSystem party;
+    public GameObject markZ;
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +30,13 @@ public class playerScript : MonoBehaviour
             BBQBottles = BBQBottles + 1;
             bbqCount.text = BBQBottles.ToString();
 
+        }
+        if (other.CompareTag("doom"))
+        {
+            markZ.transform.position = new Vector3(5, 4, 41);
+            //Rigidbody rb = markZ.GetComponent<Rigidbody>();
+            //rb.AddForce(markZ.transform.forward * 1000);
+            Debug.Log(markZ);
         }
     }
     }
