@@ -1,6 +1,6 @@
 Team: Anthony Saliba &  Radha Hosad 
-(Repository) [https://github.com/RaltsHunter/game615-spring2023-05]
-(Zuck's Haunted Mansion)[https://RaltsHunter.github.io/game615-spring2023-05/exercise05/play]
+[Repository](https://github.com/RaltsHunter/game615-spring2023-05)
+[Zuck's Haunted Mansion](https://RaltsHunter.github.io/game615-spring2023-05/exercise05/play)
 
 Sources:
 Man by Quaternius
