@@ -1,24 +1,9 @@
 fileFormatVersion: 2
-guid: cd26ff0f8afe2b6438e93e2d3c69ea69
+guid: 441cc7b37fff55040ae0f0625c1857b1
 ModelImporter:
   serializedVersion: 21300
   internalIDToNameTable: []
-  externalObjects:
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 02___Default
-    second: {fileID: 2100000, guid: 50ac7f4fe5a77b348a24f630bb37edfe, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: 03___Default
-    second: {fileID: 2100000, guid: c39f4bffbc9780943a8b324d7734b822, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: _crayfishdiffuse
-    second: {fileID: 2100000, guid: 1224ba74ee35387448fe0dc9c2e4120b, type: 2}
+  externalObjects: {}
   materials:
     materialImportMode: 2
     materialName: 0
