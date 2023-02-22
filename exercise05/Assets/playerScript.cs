@@ -28,7 +28,7 @@ public class playerScript : MonoBehaviour
             ParticleSystem partay = Instantiate(party, other.gameObject.transform.position, transform.rotation);
             Destroy(other.gameObject);
             BBQBottles = BBQBottles + 1;
-            bbqCount.text = BBQBottles.ToString() + " / 7 BBQ Bottles";
+            bbqCount.text = BBQBottles.ToString() + " of 7 BBQ Bottles";
 
         }
         if (other.CompareTag("doom"))
@@ -39,11 +39,11 @@ public class playerScript : MonoBehaviour
 
             }
             else{
+                bbqCount.text = "THE ZUCK HUNGERS";
                 markZ.transform.position = new Vector3(5, 4, 41);
                 Rigidbody rb = markZ.AddComponent<Rigidbody>();
                 rb.AddForce(markZ.transform.forward * 500);
                 Debug.Log(markZ);
-                bbqCount.text = "THE ZUCK HUNGERS";
             }
         }
     }
