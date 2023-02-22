@@ -43,7 +43,7 @@ public class playerScript : MonoBehaviour
                 Rigidbody rb = markZ.AddComponent<Rigidbody>();
                 rb.AddForce(markZ.transform.forward * 500);
                 Debug.Log(markZ);
-                bbqCount.text = "";
+                bbqCount.text = "THE ZUCK HUNGERS";
             }
         }
     }
